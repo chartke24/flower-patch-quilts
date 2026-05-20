@@ -1,173 +1,295 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <title>Flower Patch Quilts</title>
 
   <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Playfair+Display:wght@500;600;700&family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 
-  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-  <header class="hero" id="home">
-    <nav class="navbar">
-      <a href="#home" class="brand">Flower Patch Quilts <span>🌹</span></a>
+<header class="hero" id="home">
 
-      <div class="nav-links">
-        <a href="#gallery">Gallery</a>
-        <a href="#about">About</a>
-        <a href="#contact">Contact</a>
-        <a class="nav-button" href="https://www.etsy.com/shop/flowerpatchquiltsco/" target="_blank">Shop on Etsy</a>
-      </div>
-    </nav>
+  <nav class="navbar">
 
-    <div class="hero-content">
-      <h1>Custom Long Arm Quilting</h1>
-      <p>Handmade quilting with warmth, creativity,<br>and small-town craftsmanship.</p>
+    <a href="#home" class="brand">
+      Flower Patch Quilts 🌹
+    </a>
 
-      <div class="hero-buttons">
-        <a href="#gallery" class="btn primary">View Gallery</a>
-        <a href="https://www.etsy.com/shop/flowerpatchquiltsco/" target="_blank" class="btn light">Shop on Etsy</a>
-      </div>
-    </div>
-  </header>
+    <div class="nav-links">
+      <a href="#gallery">Gallery</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
 
-  <section class="keepsakes">
-    <div class="section-heading">
-      <h2>Handcrafted Keepsakes</h2>
-      <div class="divider">♡</div>
-      <p>Every quilt is stitched with care to become something meaningful for generations.</p>
+      <a class="nav-button"
+         href="https://www.etsy.com/shop/flowerpatchquiltsco/"
+         target="_blank">
+         Shop on Etsy
+      </a>
     </div>
 
-    <div class="service-grid">
-      <div class="service-card">
-        <div class="icon">♡</div>
-        <h3>Memory Quilts</h3>
-        <p>Preserve memories with custom handmade quilting projects.</p>
-      </div>
+  </nav>
 
-      <div class="service-card">
-        <div class="icon">▤</div>
-        <h3>Custom Quilting</h3>
-        <p>Beautiful edge-to-edge and detailed quilting designs.</p>
-      </div>
+  <div class="hero-content">
 
-      <div class="service-card">
-        <div class="icon">☼</div>
-        <h3>Seasonal & Gift Quilts</h3>
-        <p>Cozy quilts and handmade gifts perfect for every season.</p>
-      </div>
+    <h1>
+      Custom Long Arm Quilting
+    </h1>
+
+    <p>
+      Handmade quilting with warmth, creativity,
+      and small-town craftsmanship.
+    </p>
+
+    <div class="hero-buttons">
+
+      <a href="#gallery" class="btn primary">
+        View Gallery
+      </a>
+
+      <a href="https://www.etsy.com/shop/flowerpatchquiltsco/"
+         target="_blank"
+         class="btn light">
+
+         Shop on Etsy
+
+      </a>
+
     </div>
-<section class="gallery-section" id="gallery">
-  <div class="section-heading">
-    <h2>Quilt Gallery</h2>
-    <div class="divider">♡</div>
-    <p>Handmade quilts and custom creations.</p>
+
   </div>
-</body>
+
+</header>
+
+<section class="keepsakes">
+
+  <div class="section-heading">
+
+    <h2>Handcrafted Keepsakes</h2>
+
+    <div class="divider">♡</div>
+
+    <p>
+      Every quilt is stitched with care to become
+      something meaningful for generations.
+    </p>
+
+  </div>
+
+  <div class="service-grid">
+
+    <div class="service-card">
+      <div class="icon">♡</div>
+
+      <h3>Memory Quilts</h3>
+
+      <p>
+        Preserve memories with custom handmade
+        quilting projects.
+      </p>
+    </div>
+
+    <div class="service-card">
+      <div class="icon">▤</div>
+
+      <h3>Custom Quilting</h3>
+
+      <p>
+        Beautiful edge-to-edge and detailed
+        quilting designs.
+      </p>
+    </div>
+
+    <div class="service-card">
+      <div class="icon">☼</div>
+
+      <h3>Seasonal Gifts</h3>
+
+      <p>
+        Cozy quilts and handmade gifts
+        perfect for every season.
+      </p>
+    </div>
+
+  </div>
+
+</section>
+
+<section class="gallery-section" id="gallery">
+
+  <div class="section-heading">
+
+    <h2>Quilt Gallery</h2>
+
+    <div class="divider">♡</div>
+
+    <p>
+      Handmade quilts and custom creations.
+    </p>
+
+  </div>
+
   <div class="gallery-grid">
 
     <div class="gallery-card">
-      <img src="images/quilt1.jpg" alt="Quilt" onclick="openLightbox(0)">
+      <img src="images/quilt1.jpg" onclick="openLightbox(0)">
     </div>
 
     <div class="gallery-card">
-      <img src="images/quilt2.jpg" alt="Quilt" onclick="openLightbox(1)">
+      <img src="images/quilt2.jpg" onclick="openLightbox(1)">
     </div>
 
     <div class="gallery-card">
-      <img src="images/quilt3.jpg" alt="Quilt" onclick="openLightbox(2)">
+      <img src="images/quilt3.jpg" onclick="openLightbox(2)">
     </div>
 
     <div class="gallery-card">
-      <img src="images/quilt4.jpg" alt="Quilt" onclick="openLightbox(3)">
+      <img src="images/quilt4.jpg" onclick="openLightbox(3)">
     </div>
 
     <div class="gallery-card">
-      <img src="images/quilt5.jpg" alt="Quilt" onclick="openLightbox(4)">
+      <img src="images/quilt5.jpg" onclick="openLightbox(4)">
     </div>
 
     <div class="gallery-card">
-      <img src="images/quilt6.jpg" alt="Quilt" onclick="openLightbox(5)">
+      <img src="images/quilt6.jpg" onclick="openLightbox(5)">
     </div>
 
     <div class="gallery-card">
-      <img src="images/quilt7.jpg" alt="Quilt" onclick="openLightbox(6)">
+      <img src="images/quilt7.jpg" onclick="openLightbox(6)">
     </div>
 
     <div class="gallery-card">
-      <img src="images/quilt8.jpg" alt="Quilt" onclick="openLightbox(7)">
+      <img src="images/quilt8.jpg" onclick="openLightbox(7)">
     </div>
 
     <div class="gallery-card">
-      <img src="images/quilt9.jpg" alt="Quilt" onclick="openLightbox(8)">
+      <img src="images/quilt9.jpg" onclick="openLightbox(8)">
     </div>
 
     <div class="gallery-card">
-      <img src="images/quilt10.jpg" alt="Quilt" onclick="openLightbox(9)">
+      <img src="images/quilt10.jpg" onclick="openLightbox(9)">
     </div>
 
   </div>
+
 </section>
+
+<section class="about-section" id="about">
+
+  <div class="about-image">
+    <img src="images/quilt2.jpg">
+  </div>
+
+  <div class="about-text">
+
+    <h2>About Flower Patch Quilts</h2>
+
+    <div class="divider left">♡</div>
+
+    <p>
+      Flower Patch Quilts specializes in custom long arm quilting
+      and handmade quilted keepsakes in Montrose, Illinois.
+      Every piece is crafted with attention to detail,
+      quality stitching, and heartfelt care.
+    </p>
+
+  </div>
+
+</section>
+
+<section class="contact-section" id="contact">
+
+  <div class="section-heading">
+
+    <h2>Contact</h2>
+
+    <div class="divider">♡</div>
+
+  </div>
+
+  <div class="contact-grid">
+
+    <div class="contact-card">
+
+      <div class="contact-icon">✉</div>
+
+      <h3>Email</h3>
+
+      <a href="mailto:maryhartke34@gmail.com">
+        maryhartke34@gmail.com
+      </a>
+
     </div>
 
-    <div class="about-text">
-      <h2>About Flower Patch Quilts</h2>
-      <div class="divider left">♡</div>
-      <p>
-        Flower Patch Quilts specializes in custom long arm quilting and handmade quilted keepsakes in Montrose, Illinois. Every piece is crafted with attention to detail, quality stitching, and heartfelt care.
-      </p>
+    <div class="contact-card">
+
+      <div class="contact-icon">E</div>
+
+      <h3>Etsy Shop</h3>
+
+      <a href="https://www.etsy.com/shop/flowerpatchquiltsco/"
+         target="_blank">
+
+         Flower Patch Quilts Co
+
+      </a>
+
     </div>
-  </section>
 
-  <section class="contact-section" id="contact">
-    <div class="section-heading">
-      <h2>Contact</h2>
-      <div class="divider">♡</div>
+    <div class="contact-card">
+
+      <div class="contact-icon facebook">f</div>
+
+      <h3>Facebook</h3>
+
+      <a href="https://www.facebook.com/share/17QT58wtWa/?mibextid=wwXIfr"
+         target="_blank">
+
+         Follow on Facebook
+
+      </a>
+
     </div>
 
-    <div class="contact-grid">
-      <div class="contact-card">
-        <div class="contact-icon">✉</div>
-        <h3>Email</h3>
-        <a href="mailto:maryhartke34@gmail.com">maryhartke34@gmail.com</a>
-      </div>
+  </div>
 
-      <div class="contact-card">
-        <div class="contact-icon">E</div>
-        <h3>Etsy Shop</h3>
-        <a href="https://www.etsy.com/shop/flowerpatchquiltsco/" target="_blank">Flower Patch Quilts Co</a>
-      </div>
+</section>
 
-      <div class="contact-card">
-        <div class="contact-icon facebook">f</div>
-        <h3>Facebook</h3>
-        <a href="https://www.facebook.com/share/17QT58wtWa/?mibextid=wwXIfr" target="_blank">Follow on Facebook</a>
-      </div>
-    </div>
-  </section>
+<footer>
 
-  <footer>
-    <p>© 2026 Flower Patch Quilts • Handmade with Care</p>
-    <div class="footer-flower">🌿🌹🌿</div>
-  </footer>
+  <p>
+    © 2026 Flower Patch Quilts • Handmade with Care
+  </p>
 
-</body>
-  <!-- LIGHTBOX -->
+  <div class="footer-flower">
+    🌿🌹🌿
+  </div>
+
+</footer>
+
+<!-- LIGHTBOX -->
 
 <div id="lightbox" class="lightbox">
 
-  <span class="close" onclick="closeLightbox()">&times;</span>
+  <span class="close" onclick="closeLightbox()">
+    &times;
+  </span>
 
-  <span class="prev" onclick="changeSlide(-1)">&#10094;</span>
+  <span class="prev" onclick="changeSlide(-1)">
+    &#10094;
+  </span>
 
   <img class="lightbox-content" id="lightbox-img">
 
-  <span class="next" onclick="changeSlide(1)">&#10095;</span>
+  <span class="next" onclick="changeSlide(1)">
+    &#10095;
+  </span>
 
 </div>
 
@@ -189,27 +311,38 @@ const images = [
 let currentIndex = 0;
 
 function openLightbox(index) {
+
   currentIndex = index;
+
   document.getElementById("lightbox").style.display = "flex";
-  document.getElementById("lightbox-img").src = images[currentIndex];
+
+  document.getElementById("lightbox-img").src =
+  images[currentIndex];
+
 }
 
 function closeLightbox() {
-  document.getElementById("lightbox").style.display = "none";
+
+  document.getElementById("lightbox").style.display =
+  "none";
+
 }
 
 function changeSlide(direction) {
+
   currentIndex += direction;
 
-  if (currentIndex < 0) {
+  if(currentIndex < 0){
     currentIndex = images.length - 1;
   }
 
-  if (currentIndex >= images.length) {
+  if(currentIndex >= images.length){
     currentIndex = 0;
   }
 
-  document.getElementById("lightbox-img").src = images[currentIndex];
+  document.getElementById("lightbox-img").src =
+  images[currentIndex];
+
 }
 
 document.addEventListener("keydown", function(e){
@@ -233,4 +366,6 @@ document.addEventListener("keydown", function(e){
 });
 
 </script>
+
+</body>
 </html>
