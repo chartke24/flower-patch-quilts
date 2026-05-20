@@ -379,6 +379,14 @@ section {
   0 12px 32px rgba(55,35,25,0.13);
 }
 
+.about-text {
+  text-align: center;
+
+  max-width: 700px;
+
+  margin: auto;
+}
+
 .about-text p {
 
   font-size: 1.05rem;
@@ -386,6 +394,8 @@ section {
   line-height: 1.9;
 
   max-width: 610px;
+
+  margin: 0 auto;
 }
 
 /* CONTACT */
