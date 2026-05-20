@@ -1,149 +1,163 @@
-<!-- index.html -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
   <title>Flower Patch Quilts</title>
 
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Playfair+Display:wght@500;600;700&family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
 
-  <header class="hero">
-    <div class="overlay"></div>
+  <header class="hero" id="home">
+    <nav class="navbar">
+      <a href="#home" class="brand">Flower Patch Quilts <span>🌹</span></a>
 
-    <nav>
-      <div class="logo">
-        Flower Patch Quilts
+      <div class="nav-links">
+        <a href="#gallery">Gallery</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+        <a class="nav-button" href="https://www.etsy.com/shop/flowerpatchquiltsco/" target="_blank">Shop on Etsy</a>
       </div>
-
-      <ul>
-        <li><a href="#gallery">Gallery</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
     </nav>
 
     <div class="hero-content">
       <h1>Custom Long Arm Quilting</h1>
-
-      <p>
-        Handmade quilting with warmth, creativity, and small-town craftsmanship.
-      </p>
+      <p>Handmade quilting with warmth, creativity,<br>and small-town craftsmanship.</p>
 
       <div class="hero-buttons">
-        <a href="#gallery" class="btn">View Gallery</a>
-
-        <a href="https://www.etsy.com/shop/flowerpatchquiltsco/" target="_blank" class="btn secondary">
-          Shop on Etsy
-        </a>
+        <a href="#gallery" class="btn primary">View Gallery</a>
+        <a href="https://www.etsy.com/shop/flowerpatchquiltsco/" target="_blank" class="btn light">Shop on Etsy</a>
       </div>
     </div>
   </header>
 
-  <section class="featured">
-    <div class="section-title">
+  <section class="keepsakes">
+    <div class="section-heading">
       <h2>Handcrafted Keepsakes</h2>
-
-      <p>
-        Every quilt is stitched with care to become something meaningful for generations.
-      </p>
+      <div class="divider">♡</div>
+      <p>Every quilt is stitched with care to become something meaningful for generations.</p>
     </div>
 
-    <div class="cards">
-
-      <div class="card">
+    <div class="service-grid">
+      <div class="service-card">
+        <div class="icon">♡</div>
         <h3>Memory Quilts</h3>
-        <p>
-          Preserve memories with custom handmade quilting projects.
-        </p>
+        <p>Preserve memories with custom handmade quilting projects.</p>
       </div>
 
-      <div class="card">
+      <div class="service-card">
+        <div class="icon">▤</div>
         <h3>Custom Quilting</h3>
-        <p>
-          Beautiful edge-to-edge and detailed quilting designs.
-        </p>
+        <p>Beautiful edge-to-edge and detailed quilting designs.</p>
       </div>
 
-      <div class="card">
+      <div class="service-card">
+        <div class="icon">☼</div>
         <h3>Seasonal & Gift Quilts</h3>
-        <p>
-          Cozy quilts and handmade gifts perfect for every season.
-        </p>
+        <p>Cozy quilts and handmade gifts perfect for every season.</p>
       </div>
-
     </div>
   </section>
 
-  <section id="gallery" class="gallery-section">
-
-    <div class="section-title">
+  <section class="gallery-section" id="gallery">
+    <div class="section-heading">
       <h2>Quilt Gallery</h2>
+      <div class="divider">♡</div>
       <p>Handmade quilts and custom creations.</p>
     </div>
 
-    <div class="gallery">
+    <div class="gallery-grid">
+      <div class="gallery-card">
+        <img src="images/quilt1.jpg" alt="Floral Star Table Runner">
+        <h3>Floral Star Table Runner</h3>
+      </div>
 
-      <!-- CHANGE THESE IMAGE NAMES TO MATCH YOUR FILES -->
+      <div class="gallery-card">
+        <img src="images/quilt2.jpg" alt="Patriotic Table Runner">
+        <h3>Patriotic Table Runner</h3>
+      </div>
 
-      <img src="images/quilt1.jpg">
-      <img src="images/quilt2.jpg">
-      <img src="images/quilt3.jpg">
-      <img src="images/quilt4.jpg">
-      <img src="images/quilt5.jpg">
-      <img src="images/quilt6.jpg">
+      <div class="gallery-card">
+        <img src="images/quilt3.jpg" alt="Memory Quilt">
+        <h3>Memory Quilt</h3>
+      </div>
 
+      <div class="gallery-card">
+        <img src="images/quilt4.jpg" alt="Purple & White Quilt">
+        <h3>Purple & White Quilt</h3>
+      </div>
+
+      <div class="gallery-card">
+        <img src="images/quilt5.jpg" alt="Blue Star Quilt">
+        <h3>Blue Star Quilt</h3>
+      </div>
+
+      <div class="gallery-card">
+        <img src="images/quilt6.jpg" alt="Log Cabin Quilt">
+        <h3>Log Cabin Quilt</h3>
+      </div>
+
+      <div class="gallery-card">
+        <img src="images/quilt7.jpg" alt="Pink Floral Quilt">
+        <h3>Pink Floral Quilt</h3>
+      </div>
+
+      <div class="gallery-card">
+        <img src="images/quilt8.jpg" alt="Scrappy Quilt">
+        <h3>Scrappy Quilt</h3>
+      </div>
     </div>
-
   </section>
 
-  <section id="about" class="about">
+  <section class="about-section" id="about">
+    <div class="about-image">
+      <img src="images/quilt9.jpg" alt="Handmade quilt display">
+    </div>
 
-    <div class="section-title">
+    <div class="about-text">
       <h2>About Flower Patch Quilts</h2>
+      <div class="divider left">♡</div>
+      <p>
+        Flower Patch Quilts specializes in custom long arm quilting and handmade quilted keepsakes in Montrose, Illinois. Every piece is crafted with attention to detail, quality stitching, and heartfelt care.
+      </p>
     </div>
-
-    <p>
-      Flower Patch Quilts specializes in custom long arm quilting and handmade quilted keepsakes in Montrose, Illinois. Every piece is crafted with attention to detail, quality stitching, and heartfelt care.
-    </p>
-
   </section>
 
-  <section id="contact" class="contact">
-
-    <div class="section-title">
+  <section class="contact-section" id="contact">
+    <div class="section-heading">
       <h2>Contact</h2>
+      <div class="divider">♡</div>
     </div>
 
-    <div class="contact-box">
+    <div class="contact-grid">
+      <div class="contact-card">
+        <div class="contact-icon">✉</div>
+        <h3>Email</h3>
+        <a href="mailto:maryhartke34@gmail.com">maryhartke34@gmail.com</a>
+      </div>
 
-      <p>
-        Email:
-        <a href="mailto:maryhartke34@gmail.com">
-          maryhartke34@gmail.com
-        </a>
-      </p>
+      <div class="contact-card">
+        <div class="contact-icon">E</div>
+        <h3>Etsy Shop</h3>
+        <a href="https://www.etsy.com/shop/flowerpatchquiltsco/" target="_blank">Flower Patch Quilts Co</a>
+      </div>
 
-      <p>
-        Etsy Shop:
-        <a href="https://www.etsy.com/shop/flowerpatchquiltsco/" target="_blank">
-          Flower Patch Quilts Co
-        </a>
-      </p>
-
+      <div class="contact-card">
+        <div class="contact-icon facebook">f</div>
+        <h3>Facebook</h3>
+        <a href="https://www.facebook.com/share/17QT58wtWa/?mibextid=wwXIfr" target="_blank">Follow on Facebook</a>
+      </div>
     </div>
-
   </section>
 
   <footer>
-    <p>
-      © 2026 Flower Patch Quilts • Handmade with Care
-    </p>
+    <p>© 2026 Flower Patch Quilts • Handmade with Care</p>
+    <div class="footer-flower">🌿🌹🌿</div>
   </footer>
 
 </body>
