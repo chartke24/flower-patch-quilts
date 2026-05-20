@@ -1,113 +1,150 @@
+<!-- index.html -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Flower Patch Quilts | Custom Long Arm Quilting</title>
-  <meta name="description" content="Flower Patch Quilts offers handmade quilts, memory quilts, table runners, seasonal decor, and custom long arm quilting in Montrose, Illinois." />
-  <link rel="stylesheet" href="style.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Flower Patch Quilts</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-  <header class="site-header">
-    <a class="brand" href="#home">
-      <span class="brand-mark">✿</span>
-      <span>Flower Patch Quilts</span>
-    </a>
+
+  <header class="hero">
+    <div class="overlay"></div>
+
     <nav>
-      <a href="#gallery">Gallery</a>
-      <a href="#services">Services</a>
-      <a href="#about">About</a>
-      <a href="#contact">Contact</a>
+      <div class="logo">
+        Flower Patch Quilts
+      </div>
+
+      <ul>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
     </nav>
+
+    <div class="hero-content">
+      <h1>Custom Long Arm Quilting</h1>
+
+      <p>
+        Handmade quilting with warmth, creativity, and small-town craftsmanship.
+      </p>
+
+      <div class="hero-buttons">
+        <a href="#gallery" class="btn">View Gallery</a>
+
+        <a href="https://www.etsy.com/shop/flowerpatchquiltsco/" target="_blank" class="btn secondary">
+          Shop on Etsy
+        </a>
+      </div>
+    </div>
   </header>
 
-  <main id="home">
-    <section class="hero">
-      <div class="hero-text">
-        <p class="eyebrow">Montrose, Illinois</p>
-        <h1>Custom Long Arm Quilting & Handmade Keepsakes</h1>
-        <p class="hero-copy">Flower Patch Quilts helps turn quilt tops, cherished clothing, and meaningful fabrics into finished pieces made to be loved for years.</p>
-        <div class="hero-actions">
-          <a class="button primary" href="https://www.etsy.com/shop/flowerpatchquiltsco/" target="_blank" rel="noopener">Shop on Etsy</a>
-          <a class="button secondary" href="#contact">Request a Quote</a>
-        </div>
-      </div>
-      <div class="hero-card">
-        <img src="images/quilt-1.jpeg" alt="Handmade patriotic quilt by Flower Patch Quilts" />
-      </div>
-    </section>
+  <section class="featured">
+    <div class="section-title">
+      <h2>Handcrafted Keepsakes</h2>
 
-    <section class="intro-strip">
-      <div>
-        <strong>Long Arm Quilting</strong>
-        <span>Professional finishing for quilt tops</span>
-      </div>
-      <div>
-        <strong>Memory Quilts</strong>
-        <span>Special keepsakes from meaningful fabrics</span>
-      </div>
-      <div>
-        <strong>Handmade Gifts</strong>
-        <span>Seasonal pieces, runners, quilts, and more</span>
-      </div>
-    </section>
+      <p>
+        Every quilt is stitched with care to become something meaningful for generations.
+      </p>
+    </div>
 
-    <section id="gallery" class="section">
-      <div class="section-heading">
-        <p class="eyebrow">Featured Work</p>
-        <h2>Quilts stitched with care</h2>
-        <p>Browse a few examples of handmade quilts, seasonal pieces, and keepsake projects.</p>
-      </div>
-      <div class="gallery-grid">
-        <article class="gallery-item large"><img src="images/quilt-2.jpeg" alt="Memory quilt made from shirts" /><h3>Memory Quilts</h3></article>
-        <article class="gallery-item"><img src="images/quilt-3.jpeg" alt="Handmade patriotic table runner" /><h3>Table Runners</h3></article>
-        <article class="gallery-item"><img src="images/quilt-4.jpeg" alt="Handmade floral quilt" /><h3>Floral Quilts</h3></article>
-        <article class="gallery-item"><img src="images/quilt-1.jpeg" alt="Patriotic quilt displayed outdoors" /><h3>Seasonal Favorites</h3></article>
-      </div>
-    </section>
+    <div class="cards">
 
-    <section id="services" class="section services">
-      <div class="section-heading">
-        <p class="eyebrow">What We Offer</p>
-        <h2>Custom quilting services</h2>
+      <div class="card">
+        <h3>Memory Quilts</h3>
+        <p>
+          Preserve memories with custom handmade quilting projects.
+        </p>
       </div>
-      <div class="cards">
-        <div class="card"><h3>Long Arm Quilting</h3><p>Edge-to-edge quilting and finishing services for quilt tops.</p></div>
-        <div class="card"><h3>Memory Quilts</h3><p>Personal quilts made from shirts, clothing, or meaningful fabrics.</p></div>
-        <div class="card"><h3>Handmade Decor</h3><p>Table runners, seasonal pieces, gifts, and finished quilted items.</p></div>
-      </div>
-    </section>
 
-    <section id="about" class="section about">
-      <div class="about-image"><img src="images/card.jpeg" alt="Flower Patch Quilts business card" /></div>
-      <div>
-        <p class="eyebrow">About Flower Patch Quilts</p>
-        <h2>Small-town craftsmanship with a personal touch</h2>
-        <p>Every quilt has a story. Flower Patch Quilts is built around careful stitching, thoughtful details, and helping customers create finished pieces that feel personal, useful, and beautiful.</p>
-        <p>Whether you need a quilt top finished, a memory quilt made, or a special handmade gift, each project is handled with care from start to finish.</p>
+      <div class="card">
+        <h3>Custom Quilting</h3>
+        <p>
+          Beautiful edge-to-edge and detailed quilting designs.
+        </p>
       </div>
-    </section>
 
-    <section id="contact" class="section contact">
-      <div class="contact-box">
-        <p class="eyebrow">Get Started</p>
-        <h2>Ready to start a quilt project?</h2>
-        <p>Reach out to ask about custom quilting, memory quilts, available handmade items, or pricing.</p>
-        <div class="contact-actions">
-          <a class="button primary" href="mailto:maryhartke34@gmail.com">Email Mary</a>
-          <a class="button secondary" href="https://www.etsy.com/shop/flowerpatchquiltsco/" target="_blank" rel="noopener">Visit Etsy Shop</a>
-        </div>
-        <p class="small">Email: maryhartke34@gmail.com</p>
+      <div class="card">
+        <h3>Seasonal & Gift Quilts</h3>
+        <p>
+          Cozy quilts and handmade gifts perfect for every season.
+        </p>
       </div>
-    </section>
-  </main>
+
+    </div>
+  </section>
+
+  <section id="gallery" class="gallery-section">
+
+    <div class="section-title">
+      <h2>Quilt Gallery</h2>
+      <p>Handmade quilts and custom creations.</p>
+    </div>
+
+    <div class="gallery">
+
+      <!-- CHANGE THESE IMAGE NAMES TO MATCH YOUR FILES -->
+
+      <img src="images/quilt1.jpg">
+      <img src="images/quilt2.jpg">
+      <img src="images/quilt3.jpg">
+      <img src="images/quilt4.jpg">
+      <img src="images/quilt5.jpg">
+      <img src="images/quilt6.jpg">
+
+    </div>
+
+  </section>
+
+  <section id="about" class="about">
+
+    <div class="section-title">
+      <h2>About Flower Patch Quilts</h2>
+    </div>
+
+    <p>
+      Flower Patch Quilts specializes in custom long arm quilting and handmade quilted keepsakes in Montrose, Illinois. Every piece is crafted with attention to detail, quality stitching, and heartfelt care.
+    </p>
+
+  </section>
+
+  <section id="contact" class="contact">
+
+    <div class="section-title">
+      <h2>Contact</h2>
+    </div>
+
+    <div class="contact-box">
+
+      <p>
+        Email:
+        <a href="mailto:maryhartke34@gmail.com">
+          maryhartke34@gmail.com
+        </a>
+      </p>
+
+      <p>
+        Etsy Shop:
+        <a href="https://www.etsy.com/shop/flowerpatchquiltsco/" target="_blank">
+          Flower Patch Quilts Co
+        </a>
+      </p>
+
+    </div>
+
+  </section>
 
   <footer>
-    <p>© <span id="year"></span> Flower Patch Quilts. Handmade in Montrose, Illinois.</p>
+    <p>
+      © 2026 Flower Patch Quilts • Handmade with Care
+    </p>
   </footer>
 
-  <script>
-    document.getElementById('year').textContent = new Date().getFullYear();
-  </script>
 </body>
 </html>
