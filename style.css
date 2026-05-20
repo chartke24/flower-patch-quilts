@@ -247,14 +247,6 @@ section {
   display: block;
 }
 
-.gallery-card h3 {
-  font-family: "Playfair Display", serif;
-  text-align: center;
-  font-size: 1.15rem;
-  font-weight: 600;
-  padding: 17px 10px 20px;
-}
-
 /* ABOUT */
 
 .about-section {
